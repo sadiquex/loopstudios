@@ -57,6 +57,12 @@ const Button = styled.button`
   letter-spacing: 1.4;
   background: transparent;
   padding: 10px 20px;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+
   @media screen and (max-width: 480px) {
     display: none;
   }
