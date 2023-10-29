@@ -5,7 +5,7 @@ import { useState } from "react";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
